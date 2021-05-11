@@ -31,17 +31,16 @@ namespace Arrayer
             }
 
             int planetChoice = 0;
-            string answer = "";
 
-            while (!int.TryParse(answer, out planetChoice))
+            while (!int.TryParse(Console.ReadLine(), out planetChoice))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine();
                 Console.WriteLine("ERROR!!");
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("Välj en siffra mellan [1 - 9]");
                 Console.WriteLine();
             }
-
 
             Console.ReadLine();
         }
