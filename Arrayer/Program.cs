@@ -42,7 +42,9 @@ namespace Arrayer
                 Console.WriteLine("Välj en siffra mellan [1 - 9]");
             }
 
-            switch (int.TryParse(planetChoice, out 0))
+            planetChoice = 1;
+
+            switch ()
             {
                 case "1":
                     Console.WriteLine($"Du har valt att åka till {planets[0]}");
