@@ -6,6 +6,8 @@ namespace Arrayer
     {
         static void Main(string[] args)
         {
+            int planetChoice = 0;
+            string answer = "";
             //string[] planets = { "Proxima Centauri B", "Proxima Centauri C", "Kepler-1229b", "Kepler-442b", "Kepler-186f" };
             string[] planets = { "KEPLER-438B", "KEPLER-452B", "Proxima Centauri B", "KEPLER-186F", "Proxima Centauri C", "GLISE-667CC", "KEPLER-62E", "GLIESE-581G", "KEPLER-22B" };
 
@@ -30,7 +32,6 @@ namespace Arrayer
                 Console.WriteLine();
             }
 
-            int planetChoice = 0;
 
             while (!int.TryParse(Console.ReadLine(), out planetChoice))
             {
@@ -39,10 +40,55 @@ namespace Arrayer
                 Console.WriteLine("ERROR!!");
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("Välj en siffra mellan [1 - 9]");
-                Console.WriteLine();
             }
 
+            /*switch ())
+            {
+                case "1":
+                    Console.WriteLine($"Du har valt att åka till {planets[0]}");
+                    break;
+
+                case "2":
+                    Console.WriteLine($"Du har valt att åka till {planets[1]}");
+                    break;
+
+                case "3":
+                    Console.WriteLine($"Du har valt att åka till {planets[2]}");
+                    break;
+
+                case "4":
+                    Console.WriteLine($"Du har valt att åka till {planets[3]}");
+                    break;
+
+                case "5":
+                    Console.WriteLine($"Du har valt att åka till {planets[4]}");
+                    break;
+
+                case "6":
+                    Console.WriteLine($"Du har valt att åka till {planets[5]}");
+                    break;
+
+                case "7":
+                    Console.WriteLine($"Du har valt att åka till {planets[6]}");
+                    break;
+
+                case "8":
+                    Console.WriteLine($"Du har valt att åka till {planets[7]}");
+                    break;
+
+                case "9":
+                    Console.WriteLine($"Du har valt att åka till {planets[8]}");
+                    break;
+                default:
+                    Console.WriteLine("ERROR!!!", ConsoleColor.Red);
+                    Console.WriteLine("");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    break;
+            }*/
+
+
             Console.ReadLine();
+
         }
 
     }
