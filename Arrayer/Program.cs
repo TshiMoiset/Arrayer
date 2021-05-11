@@ -8,7 +8,7 @@ namespace Arrayer
         {
             string answer;
             //string[] planets = { "Proxima Centauri B", "Proxima Centauri C", "Kepler-1229b", "Kepler-442b", "Kepler-186f" };
-            string[] planets = { "KEPLER-438B", "KEPLER-452B", "PROXIMA-B", "KEPLER-186F", "KEPLER-62F", "GLISE-667CC", "KEPLER-62E", "GLIESE-581G", "KEPLER-22B" };
+            string[] planets = { "KEPLER-438B", "KEPLER-452B", "Proxima Centauri B", "KEPLER-186F", "Proxima Centauri C", "GLISE-667CC", "KEPLER-62E", "GLIESE-581G", "KEPLER-22B" };
 
             Console.ForegroundColor = ConsoleColor.Yellow;
 
@@ -23,7 +23,8 @@ namespace Arrayer
 
             for (int i = 0; i < planets.Length; i++)
             {
-                Console.WriteLine(planets[0 + 1]);
+                Console.WriteLine(i + 1 + " " + planets[i]);
+                Console.WriteLine();
             }
 
             Console.ReadLine();
