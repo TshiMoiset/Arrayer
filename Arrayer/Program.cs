@@ -15,13 +15,15 @@ namespace Arrayer
             Console.WriteLine("Hej och välkomen ombord på Novax (Nova Explore).");
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Tryck [ENTER] för att se resealternativ");
+            Console.WriteLine("Tryck [ENTER] för att se resealternativ.");
 
             answer = Console.ReadLine().ToLower();
 
+            Console.ForegroundColor = ConsoleColor.Magenta;
+
             for (int i = 0; i < planets.Length; i++)
             {
-                Console.WriteLine(planets);
+                Console.WriteLine(planets[0 + 1]);
             }
 
             Console.ReadLine();
