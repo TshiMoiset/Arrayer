@@ -13,15 +13,15 @@ namespace Arrayer
 
             Console.ForegroundColor = ConsoleColor.Yellow;
 
-            Console.WriteLine("Hej och välkomen ombord på Novax (Nova Explore).");
+            Console.WriteLine("Hej och välkomen ombord på Avalon.");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine();
-            Console.WriteLine("Tryck [ENTER] för att se resealternativ.");
+            Console.WriteLine("Tryck [ENTER] för att se resealternativen.");
 
             Console.ReadLine();
 
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Välj vilken planet du vill resa till med siffrorna [1- 9]");
+            Console.WriteLine("Välj vilken planet du vill resa till mellan siffrorna [1 - 9]");
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Magenta;
@@ -42,9 +42,9 @@ namespace Arrayer
                 Console.WriteLine("Välj en siffra mellan [1 - 9]");
             }
 
-            planetChoice = 1;
+            Console.ForegroundColor = ConsoleColor.Yellow;
 
-            switch ()
+            /*switch ()
             {
                 case "1":
                     Console.WriteLine($"Du har valt att åka till {planets[0]}");
@@ -86,12 +86,11 @@ namespace Arrayer
                     Console.WriteLine("");
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     break;
-            }
+            }*/
 
             Console.ReadLine();
 
         }
-
     }
 }
 
