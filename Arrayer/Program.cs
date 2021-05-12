@@ -45,9 +45,6 @@ namespace Arrayer
             Console.ForegroundColor = ConsoleColor.Yellow;
 
             Random random = new Random();
-            /*Random daysToTravell = new Random();
-            Random yearsToTravell = new Random();
-            Random monthsToTravell = new Random();*/
 
             int years = 0;
             int days = 0;
