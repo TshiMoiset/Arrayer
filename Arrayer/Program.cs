@@ -32,6 +32,7 @@ namespace Arrayer
                 Console.WriteLine();
             }
 
+            Console.ForegroundColor = ConsoleColor.Yellow;
 
             while (!int.TryParse(Console.ReadLine(), out planetChoice))
             {
@@ -40,6 +41,7 @@ namespace Arrayer
                 Console.WriteLine("ERROR!!");
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("Välj en siffra mellan [1 - 9]");
+                Console.ForegroundColor = ConsoleColor.Yellow;
             }
 
             Console.ForegroundColor = ConsoleColor.Yellow;
