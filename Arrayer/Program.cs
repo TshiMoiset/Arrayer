@@ -55,7 +55,7 @@ namespace Arrayer
             switch (planetChoice)
             {
                 case 1:
-                    years = random.Next(400, 500);
+                    years = random.Next(450, 500);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
                     Console.WriteLine();
