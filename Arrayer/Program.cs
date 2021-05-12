@@ -59,6 +59,7 @@ namespace Arrayer
                     years = random.Next(400, 500);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[0]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -67,6 +68,7 @@ namespace Arrayer
                     years = random.Next(1400, 1500);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[1]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -75,6 +77,7 @@ namespace Arrayer
                     years = random.Next(4, 10);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[2]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -83,6 +86,7 @@ namespace Arrayer
                     years = random.Next(500, 600);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[3]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -91,6 +95,7 @@ namespace Arrayer
                     years = random.Next(4, 10);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[4]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -99,6 +104,7 @@ namespace Arrayer
                     years = random.Next(20, 30);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[5]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -107,6 +113,7 @@ namespace Arrayer
                     years = random.Next(1200, 1300);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[6]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -115,6 +122,7 @@ namespace Arrayer
                     years = random.Next(20, 30);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[7]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
@@ -123,6 +131,7 @@ namespace Arrayer
                     years = random.Next(500, 600);
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
+                    Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[8]}.");
                     Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
                     break;
