@@ -59,7 +59,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[0]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 2:
@@ -69,7 +69,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[1]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 3:
@@ -79,7 +79,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[2]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 4:
@@ -89,7 +89,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[3]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 5:
@@ -99,7 +99,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[4]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 6:
@@ -109,7 +109,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[5]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 7:
@@ -119,7 +119,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[6]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 8:
@@ -129,7 +129,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[7]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
 
                 case 9:
@@ -139,7 +139,7 @@ namespace Arrayer
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[8]}.");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {days}:dagar {months}:månader");
+                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
                     break;
                 default:
                     Console.ForegroundColor = ConsoleColor.Red;
