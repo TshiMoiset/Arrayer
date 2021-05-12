@@ -60,8 +60,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[0]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 2:
@@ -70,8 +75,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[1]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 3:
@@ -80,8 +90,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[2]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 4:
@@ -90,8 +105,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[3]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 5:
@@ -100,8 +120,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[4]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 6:
@@ -110,8 +135,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[5]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 7:
@@ -120,8 +150,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[6]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 8:
@@ -130,8 +165,13 @@ namespace Arrayer
                     months = random.Next(1, 12);
                     Console.WriteLine();
                     Console.WriteLine($"Du har valt att åka till {planets[7]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
 
                 case 9:
@@ -139,13 +179,18 @@ namespace Arrayer
                     days = random.Next(1, 365);
                     months = random.Next(1, 12);
                     Console.WriteLine();
-                    Console.WriteLine($"Du har valt att åka till {planets[8]}.");
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Det kommer att ta {years}:år {months}:månader {days}:dagar");
+                    Console.Write($" {years}:år");
+                    Console.Write($" {months}:månad(er)");
+                    Console.Write($" {days}:dagar");
+                    Console.WriteLine();
                     break;
                 default:
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("ERROR!!!");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("Du har inte valt en destination.");
                     Console.WriteLine("Välj ett alternatuv mellan [1 - 9]");
                     Console.ForegroundColor = ConsoleColor.Yellow;
