@@ -8,8 +8,7 @@ namespace Arrayer
         {
             int planetChoice = 0;
 
-            //string[] planets = { "Proxima Centauri B", "Proxima Centauri C", "Kepler-1229b", "Kepler-442b", "Kepler-186f" };
-            string[] planets = { "KEPLER-438B", "KEPLER-452B", "Proxima Centauri B", "KEPLER-186F", "Proxima Centauri C", "GLISE-667CC", "KEPLER-62E", "GLIESE-581G", "KEPLER-22B" };
+            string[] planets = { "KEPLER-438B", "KEPLER-452B", "Proxima Centauri B", "KEPLER-186F", "Proxima Centauri C", "GLISE-667CC", "KEPLER-62E", "GLIESE-581G", "KEPLER-22B" }; //Arrayen innehåller 9 olika planeter.
 
             Console.ForegroundColor = ConsoleColor.Yellow;
 
@@ -26,15 +25,16 @@ namespace Arrayer
 
             Console.ForegroundColor = ConsoleColor.Magenta;
 
-            for (int i = 0; i < planets.Length; i++)
+            for (int i = 0; i < planets.Length; i++)        //Loopen kommer att kösa igronm arrayen så att varje planet skrivs ut.
             {
-                Console.WriteLine(i + 1 + ". " + planets[i]);
+                Console.WriteLine(i + 1 + ". " + planets[i]);   // Koden gör så att den punkterar med siffror. EX: 1.KEPLER-438B 2. KEPLER-452B etc. 
+
                 Console.WriteLine();
             }
 
             Console.ForegroundColor = ConsoleColor.Yellow;
 
-            while (!int.TryParse(Console.ReadLine(), out planetChoice))
+            while (!int.TryParse(Console.ReadLine(), out planetChoice)) // Tryparse gör så att jag ska bara använda mig av siffror när jag svarar.
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine();
@@ -63,7 +63,7 @@ namespace Arrayer
                     Console.ForegroundColor = ConsoleColor.DarkCyan;
                     Console.Write($"Det kommer att ta:");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.Write($" {years}:år");
+                    Console.Write($" {years}:år");      // $ tecknet gör att jag kans skriva mina variebler direkt i meningen istället för att skriva + (exempel) +.
                     Console.Write($" {months}:månad(er)");
                     Console.Write($" {days}:dagar");
                     Console.WriteLine();
